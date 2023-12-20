@@ -1,0 +1,62 @@
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 20px;
+    /* remove background-img if you want */
+    /* background: url('https://source.unsplash.com/1600x900/?opaque'); */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.c1{
+    font-size: 200%;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+p{
+    color: #4070f4;
+}
+.c2{
+    padding: 10px;
+    border-bottom-color: #4070f4;
+    border-color: #4070f4;
+    border-radius: 12px;
+    margin: 4px 2px;
+}
+button{
+    padding: 4px 20px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.c3{
+    padding: 4px 20px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/banner.jpg);
+}

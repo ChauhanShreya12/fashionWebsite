@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Pet Animals Details</h1>
+        <form>
+            Pet Name: <input type="text" name="pname" placeholder="Enter Pet Name"><br>
+            Age: <input type="text" name="page" placeholder="Enter Pet Age"><br>
+            Weight: <input type="text" name="pweight" placeholder="Enter Pet Weight"><br>
+            Type of Pet: <input type="text" name="ptype" placeholder="Enter Type of Pet"><br>
+            Likes: <input type="text" name="plike" placeholder="Enter Pet likes"><br>
+            <input type="submit" id="i1">
+        </form>
+    </center>
+    <script>
+        var f=document.querySelectorAll("form")[0];
+        var c,d,e;
+        function sub(){
+            c={Pet_name:f.pname.value,
+                   Pet_Age:f.page.value,
+                   Pet_Weight: f.pweight.value,
+                   Pet_type: f.ptype.value,
+                   Pet_likes:f.plike.value};
+        }
+        c={Pet_name:f.pname.value,
+                   Pet_Age:f.page.value,
+                   Pet_Weight: f.pweight.value,
+                   Pet_type: f.ptype.value,
+                   Pet_likes:f.plike.value};
+        document.write(f.pname.value);
+        d=JSON.stringify(c);
+        e=JSON.parse(d);
+        console.log(d);
+        console.log(e);
+        f.onsubmit=sub;
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-image: url(images/banner.jpg)
+}
+span{
+    color: red;
+}
+h1{
+    font-size: 250%;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 250%;
+}
+h3{
+    font-size: 130%;
+    font-weight: 100;
+    color: whitesmoke;
+}
+button{
+    padding: 15px 32px;
+    text-align: center;
+    background-color: orangered;
+    color: blue;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
